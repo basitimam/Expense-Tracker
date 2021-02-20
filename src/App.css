@@ -1,0 +1,54 @@
+.App {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 30%;
+  background-color: aliceblue;
+  padding: 10px 10px 10px 10px;
+  box-shadow: tomato 1px 1px 5px 1px ;
+}
+.Expense{
+  display: flex;
+  justify-content: center;
+  color: royalblue;
+}
+.data-box{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow:grey 1px 1px 7px 1px;
+}
+.data-box h4{
+  padding:6px;
+  color: tomato;
+}
+
+.history >li{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.formdes >input{
+width: 100%;
+margin: 10px 0;
+padding: 5px 0;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+button{
+  width: 100%;
+  background-color: royalblue;
+  border-color: whitesmoke;
+  border-radius: 10px;
+  color:white ;
+  padding: 4px;
+
+}
+.btn:hover{
+  background-color: tomato;
+  
+
+}
